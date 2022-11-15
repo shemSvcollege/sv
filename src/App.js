@@ -22,11 +22,11 @@ export default function App() {
                   <BrowserRouter>
                     <Routes>
                       <Route path="/sv" element={<Signin />}/>
-                      <Route path="/choose" element={<AllTests />}/>
-                      <Route path="/questions" element={<AllQuestions />}/>
-                      <Route path="/generaltest" element={<GeneralTest />}/>
-                      <Route path="/result" element={<Result />}/>
-                      <Route path="/generalresult" element={<GeneralResult/>}/>
+                      <Route path="/sv/choose" element={<AllTests />}/>
+                      <Route path="/sv/questions" element={<AllQuestions />}/>
+                      <Route path="/sv/generaltest" element={<GeneralTest />}/>
+                      <Route path="/sv/result" element={<Result />}/>
+                      <Route path="/sv/generalresult" element={<GeneralResult/>}/>
                     </Routes>
                   </BrowserRouter>
                 </div>
