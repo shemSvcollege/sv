@@ -11,7 +11,7 @@ export default function ValidResult({pause}) {
     const valid = ()=>{
         const validPass = process.env.REACT_APP_PASSWORD;
         if(pass === validPass ){
-            nav('/result')
+            nav('/sv/result')
         }
         else{
             alert('error')

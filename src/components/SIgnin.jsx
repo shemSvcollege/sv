@@ -19,7 +19,7 @@ export default function Signin() {
         // else{
         //     alert('error')
         // }
-        nav('/choose')
+        nav('/sv/choose')
     }
 
     

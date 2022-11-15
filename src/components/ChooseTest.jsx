@@ -11,9 +11,9 @@ export default function ChooseTest({ info, title }) {
         
         store.dispatch({type:'testName',payload:title})
         if(title === 'general')
-            nav("/generaltest", { replace: true });
+            nav("/sv/generaltest", { replace: true });
         else
-            nav("/questions", { replace: true });
+            nav("/sv/questions", { replace: true });
     }
 
     return (

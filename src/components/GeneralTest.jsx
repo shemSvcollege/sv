@@ -24,7 +24,7 @@ export default function GeneralTest() {
         }
         else {
             if (test.length === test2Index + 1) {
-                nav('/generalresult')
+                nav('/sv/generalresult')
             }
             else {
                 setTest2Index(test2Index + 1)
