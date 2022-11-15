@@ -1,6 +1,6 @@
 
 import React from "react";
-import {BrowserRouter,Route,Routes} from 'react-router-dom'
+import {HashRouter,Route,Routes} from 'react-router-dom'
 import AllQuestions from "./components/AllQuestions";
 import AllTests from "./components/AllTests";
 import GeneralTest from "./components/GeneralTest";
@@ -19,7 +19,7 @@ export default function App() {
             <div className="col-12 col-md-8 col-lg-6 col-xl-5">
               <div className="card bg-dark text-white" style={{ borderRadius: ' 1rem' }}>
                 <div className="card-body p-5 text-center">
-                  <BrowserRouter>
+                  <HashRouter>
                     <Routes>
                       <Route path="/sv" element={<Signin />}/>
                       <Route path="/sv/choose" element={<AllTests />}/>
@@ -28,7 +28,7 @@ export default function App() {
                       <Route path="/sv/result" element={<Result />}/>
                       <Route path="/sv/generalresult" element={<GeneralResult/>}/>
                     </Routes>
-                  </BrowserRouter>
+                  </HashRouter>
                 </div>
               </div>
             </div>
